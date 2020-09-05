@@ -1,0 +1,39 @@
+about api
+
+Api folder directory : app/Api
+
+#### FILTERS ####
+
+Filters directory : app/Api/Filters
+
+using filters we can order or filter our data
+
+each controller need to each filter
+
+#### REPOSITORIES ####
+
+Repositories directory :  app/Api/Repositories
+
+using repositories we can return some model
+
+each model need to each repository
+
+#### TRANSFORMERS ####
+
+Repositories directory :  app/Api/Transformers
+
+using transformers we can create mutation for our response
+
+each service need to use each transformer
+
+#### SERVICES ####
+
+Repositories directory :  app/Api/Services
+
+using services we can create response
+    1. set select
+    2. set relations
+    3. overwrite some functions
+
+each controller need to use each service
+
